@@ -7,5 +7,8 @@ export default defineConfig({
   ? "VerticalTextGenerator"            
   : "./",            
   plugins: [react()],
+  esbuild: {
+    drop: ['console', 'debugger'],
+  },
 })
 

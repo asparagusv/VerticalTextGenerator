@@ -6,10 +6,16 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div class="title">
-      <h1 class="main-heading">Vertical.io</h1>
+    <div className="title">
+      <h1 className="main-heading">Vertical.io</h1>
       <h2>Generate <b>Vertical</b> Text Online</h2>
     </div>
     <App />
+    <div className="footer">
+      <a href="https://github.com/asparagusv/VerticalTextGenerator" target="_blank">
+        <img src="github-mark.png" alt="" height="23px"/>
+        <span>GitHub</span>
+      </a>
+    </div>
   </React.StrictMode>
 );
